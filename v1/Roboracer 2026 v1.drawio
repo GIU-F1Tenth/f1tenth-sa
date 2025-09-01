@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.6">
+  <diagram name="Page-1" id="QFhNQCTmrUCvf9Rlz2jg">
+    <mxGraphModel dx="1303" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E_VL5WbvbWzcL5I80N5O-32" target="E_VL5WbvbWzcL5I80N5O-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="E_VL5WbvbWzcL5I80N5O-26" target="E_VL5WbvbWzcL5I80N5O-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="80" width="520" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E_VL5WbvbWzcL5I80N5O-10" target="E_VL5WbvbWzcL5I80N5O-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-10" value="SLAM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E_VL5WbvbWzcL5I80N5O-12" target="E_VL5WbvbWzcL5I80N5O-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-12" value="Map midline generation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E_VL5WbvbWzcL5I80N5O-14" target="E_VL5WbvbWzcL5I80N5O-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-14" value="Spline smoothing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-16" value="Optimal racing line generation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-18" value="map.pgm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-19" value="midline.csv" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="206" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-20" value="&lt;div&gt;smoothed_midline.csv&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E_VL5WbvbWzcL5I80N5O-25" target="E_VL5WbvbWzcL5I80N5O-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-25" value="&lt;div&gt;LIDAR&lt;/div&gt;&lt;div&gt;VESC&lt;/div&gt;IMU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="440" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-27" value="Map and Raceline generation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-30" value="LIDAR Points&lt;br&gt;Odometry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="383" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-31" value="ACML" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E_VL5WbvbWzcL5I80N5O-25" target="E_VL5WbvbWzcL5I80N5O-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-35" value="Localization" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-36" value="LIDAR Points&lt;br&gt;Odometry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="445" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-38" value="&lt;div&gt;map.pgm&lt;/div&gt;&lt;div&gt;map.yaml&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="236" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="91" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-40" value="&lt;div&gt;Vechile Control&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="99" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.151;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.999;exitY=0.13;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="E_VL5WbvbWzcL5I80N5O-26" target="E_VL5WbvbWzcL5I80N5O-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-44" value="mini-time_optimal_velocity_profile.csv" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-48" value="Vechile&#39;s current position" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="400" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E_VL5WbvbWzcL5I80N5O-51" value="MPC + LQR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="151" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
